@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity_1c"
+    android:orientation="vertical"
+    android:background="#95E6F7">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:gravity="center"
+        android:text="CODE"
+        android:textColor="@color/black"
+        android:textSize="70dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:text="VERIFICATION"
+        android:textColor="@color/black"
+        android:textSize="26dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="290dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:text="Enter ontime password sent on
+++849092605798"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:background="#DDF4F6"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:inputType="phone"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:shadowColor="@color/white"
+            android:textColorHint="@color/black"
+            android:background="@drawable/edittext_bg"/>
+        <EditText
+            android:layout_width="60dp"
+            android:inputType="phone"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_height="60dp"
+            android:background="@drawable/edittext_bg"/>
+        <EditText
+            android:layout_width="60dp"
+            android:inputType="phone"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_height="60dp"
+            android:background="@drawable/edittext_bg"/>
+        <EditText
+            android:layout_width="60dp"
+            android:inputType="phone"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_height="60dp"
+            android:background="@drawable/edittext_bg"/>
+        <EditText
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:inputType="phone"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:background="@drawable/edittext_bg"/>
+        <EditText
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:inputType="phone"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:background="@drawable/edittext_bg"/>
+    </LinearLayout>
+    <Button
+        android:layout_width="350dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:backgroundTint="#E3C000"
+        android:text="VERIFY CODE"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+</LinearLayout>

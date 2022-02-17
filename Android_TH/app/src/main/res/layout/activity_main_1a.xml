@@ -5,14 +5,14 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/hinhnen"
-    tools:context=".MainActivity"
+    tools:context=".MainActivity_1a"
     android:orientation="vertical">
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
 
-        android:src="@drawable/hinhLogo"/>
+        android:src="@drawable/hinhlogo"/>
 
     <TextView
         android:layout_width="286dp"

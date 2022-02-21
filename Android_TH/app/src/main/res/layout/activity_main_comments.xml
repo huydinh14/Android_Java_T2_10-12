@@ -101,7 +101,6 @@
             android:layout_height="65dp"
             android:layout_gravity="center"
             android:layout_marginTop="10dp"
-            android:background="@drawable/mybutton"
             android:text="GỬI"
             android:textSize="22dp"
             android:textStyle="bold"/>

@@ -23,6 +23,18 @@ public class MainActivity extends AppCompatActivity {
                 checked[i] = b;
             }
         });
+        mydialog.setPositiveButton("OK", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialogInterface, int i) {
+                String st = "";
+                for(int j  = 0; j < items.length; j++)
+                {
+                    if(checked[j])
+                        st += items[j].toString() + ",";
+                    Toast.makeText(MainActivity.this,st,Toast.LENGTH_SHORT).show();
+                }
+            }
+        });
 //        mydialog.setSingleChoiceItems(items, -1, new DialogInterface.OnClickListener() {
 //            @Override
 //            public void onClick(DialogInterface dialogInterface, int i) {

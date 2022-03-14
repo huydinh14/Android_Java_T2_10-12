@@ -10,14 +10,33 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication">
         <activity
-            android:name=".MainActivity_3a_TikiOK">
+            android:name=".week5.MainActivity_productdetails"
+            android:exported="false" />
+        <activity
+            android:name=".week5.Custome_ListView"
+            android:exported="false" />
+        <activity
+            android:name=".week5.MainActivity_First">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".MainActivity_4_ListView">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity_3a_TikiOK">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <activity android:name=".MainActivity_2C">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
